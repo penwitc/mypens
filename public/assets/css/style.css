@@ -234,10 +234,35 @@ button {
 }
 
 .logo {
-    width: 100%;
-    float: left;
-    padding-left: 40px;
+    width: 100%; 
 }
+
+.logo a img{
+     width: 65%;  
+ }
+
+ .ssll .slick-dots {
+     bottom: 10px;
+ }
+
+
+ .ssll .slick-dots li button:before {
+     font-size: 18px;
+     line-height: 20px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 20px;
+     height: 20px;
+     content: '•';
+     text-align: center;
+     opacity: 1;
+     color: #f00;
+ }
+
+ .ship_taital{
+     color: #000 !important;
+ }
 
 .menu_text {
     width: 38%;
